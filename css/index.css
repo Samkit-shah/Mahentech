@@ -1,0 +1,180 @@
+#home_nav {
+    text-decoration: none;
+    background-color: inherit;
+    transform: scale(1.3);
+    text-shadow: 1px 1px white;
+}
+
+.content-holder {
+    width: 99.9%;
+}
+
+.intro {
+    padding-top: 10px;
+    color: rgb(19, 15, 15);
+    margin-top: 0px;
+    font-family: Impact, Charcoal, sans-serif;
+    font-weight: 500;
+    font-size: 70px;
+}
+
+.intro2 {
+    color: rgb(17, 15, 15);
+}
+
+.knowmore_btn {
+    background-color: inherit;
+    border: 5px solid rgb(8, 7, 7);
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.5s;
+}
+
+.introduction {
+    padding-left: 55px;
+    padding-bottom: 100px;
+    background-color: inherit;
+    border-bottom: 1px solid rgb(10, 10, 10);
+}
+
+.knowmore_btn:hover {
+    transform: scale(1.1);
+}
+
+.ourservices {
+    padding: 20px 2px 20px 55px;
+    background-color: inherit;
+    color: black;
+}
+
+.carousel {
+    padding: 25px;
+    background-color: inherit;
+    opacity: 1;
+    position: absolute;
+}
+
+.carousel-cell {
+    width: 68%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel.is-fullscreen .carousel-cell {
+    height: 100%;
+}
+
+.w3-image {
+    height: 550px;
+    width: 980px;
+    padding: 5px;
+}
+
+.btn_showdetails {
+    border: 1px solid rgb(7, 6, 6);
+    color: black;
+    padding: 3px 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.5s;
+    border-radius: 5px;
+}
+
+.btn_showdetails:hover {
+    transform: scale(1.1);
+}
+
+.servicesintro {
+    width: 60%;
+    top: 90px;
+    position: absolute;
+    bottom: 60px;
+    left: 189px;
+    background-color: black;
+    opacity: 0.6;
+    color: rgb(250, 233, 233);
+    padding-left: 50px;
+    padding-right: 20px;
+    border-radius: 25px;
+    animation-name: example;
+    animation-duration: 3s;
+}
+
+.trainingintro {
+    width: 60%;
+    top: 90px;
+    position: absolute;
+    bottom: 60px;
+    left: 189px;
+    background-color: black;
+    opacity: 0.6;
+    color: rgb(252, 237, 237);
+    padding-left: 50px;
+    padding-right: 20px;
+    border-radius: 25px;
+    animation-name: example;
+    animation-duration: 3s;
+}
+
+@keyframes example {
+    from {
+        top: 0px;
+    }
+    to {
+        top: 90px;
+    }
+}
+
+.inviteworkshop {
+    background-color: inherit;
+    color: black;
+    padding: 20px 5px 20px 25px;
+    font-family: verdana;
+}
+
+.invite_btn {
+    background-color: inherit;
+    border: 1px solid rgb(17, 13, 13);
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.5s;
+}
+
+.column {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    height: auto;
+    border-bottom: 1px solid rgb(10, 10, 10);
+    border-top: 1px solid rgb(10, 10, 10);
+}
+
+.row {
+    width: 103.5%;
+    border-top-style: outset;
+    border-bottom-style: outset;
+    background-color: inherit;
+}

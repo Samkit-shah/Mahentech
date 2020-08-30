@@ -1,0 +1,154 @@
+.maincontentcasejavapage {
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+
+/* Rounded border */
+
+hr.rounded {
+    border-top: 8px solid rgb(24, 19, 19);
+    border-radius: 5px;
+    width: 30%;
+    margin: auto;
+}
+
+.grid-container-top {
+    display: grid;
+    grid-template-columns: 70% auto;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+.grid-item-top {
+    background-color: inherit;
+    padding: 5px;
+    font-size: 25px;
+    text-align: left;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-style: normal;
+}
+
+.grid-container-middle {
+    display: grid;
+    grid-template-columns: 100%;
+    padding-left: 30px;
+    padding-right: 10px;
+    background: inherit;
+}
+
+.grid-item-middle {
+    background-color: inherit;
+    font-size: 22px;
+    padding-bottom: 25px;
+}
+
+.grid-container-low {
+    display: grid;
+    grid-template-columns: 50% auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: inherit;
+    border-bottom: inset;
+    border-color: black;
+}
+
+.grid-item-low {
+    background-color: inherit;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.grid-container-bottom {
+    padding-top: 5px;
+    padding-left: 30px;
+    padding-right: 50px;
+    background-color: rgb(218, 216, 216);
+    display: grid;
+    grid-template-columns: 70% auto;
+}
+
+.grid-item-bottom {
+    background-color: inherit;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    font-size: 25px;
+    text-align: left;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-style: normal;
+}
+
+.video-embed {
+    width: 400;
+    height: 290;
+}
+
+.certificate-image {
+    width: auto;
+    height: auto;
+    margin-top: 40px;
+}
+
+.coursedetails {
+    margin-left: 0;
+    font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #f1f1f1;
+    height: 20px;
+    overflow: auto;
+}
+
+.sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.sidebar a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+.table1,
+.table2 {
+    width: 100%;
+    display: inline-block;
+    max-width: 100%;
+    position: relative;
+    overflow-x: auto;
+    margin-bottom: 1.5em;
+    margin: 0;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    table-layout: auto;
+    font-size: 20px;
+    background-color: inherit;
+    border-spacing: 0;
+}
+
+.table1 td,
+.table2 td {
+    word-break: initial;
+    padding: 15px;
+    border: 1px solid rgb(77, 75, 75);
+    background-color: inherit;
+}
+
+.table2 {
+    margin-bottom: 10px;
+}
+
+.table1 {
+    margin-bottom: 10px;
+}

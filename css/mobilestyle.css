@@ -1,0 +1,254 @@
+    @media (max-width: 1110px) {
+        .content-holder {
+            margin-right: -8px;
+        }
+        .container div.logo_navbar_left img {
+            height: 60px;
+            width: 200px;
+            display: block;
+            bottom: 440px;
+            padding-bottom: 10px;
+        }
+        .container li.menu-item-5-mobile {
+            display: block;
+        }
+        .container li.menu-item-6-mobile {
+            display: block;
+        }
+        .container li.menu-item-4 {
+            display: none;
+        }
+        .container li.menu-item-2 {
+            display: none;
+        }
+        header {
+            height: 60px;
+            padding: 15px 10px 0px 0px;
+        }
+        .container {
+            padding-right: 5px;
+        }
+        .container .menu-toggle {
+            display: block;
+            font-size: 25px;
+        }
+        header nav {
+            height: 0;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #111;
+            overflow-x: hidden;
+            padding-top: 60px;
+            transition: height 0.5s;
+        }
+        header nav.active {
+            height: 40%;
+            width: 100%;
+            margin-top: 60px;
+            position: absolute;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #111;
+            overflow-x: hidden;
+            padding-top: 10px;
+            box-shadow: 30px 30px 30px 30px rgba(87, 83, 83, 0.2);
+        }
+        header nav ul {
+            display: block;
+            text-align: center;
+        }
+        header nav ul li a {
+            border-bottom: 1px solid rgba(0, 0, 0, .2);
+        }
+        .intro {
+            font-weight: normal;
+            font-size: x-large;
+        }
+        .intro2 {
+            font-size: large;
+        }
+        .content-holder .top_background {
+            height: 150px;
+        }
+        .introduction {
+            font-size: 24px;
+            margin-left: 0px;
+            padding: 0px;
+            padding-left: 19px;
+            margin-bottom: 35px;
+        }
+        .knowmore_btn {
+            padding: 5px 5px;
+        }
+        .ourservices {
+            padding-left: 19px;
+        }
+        .servicesintro {
+            position: absolute;
+            top: 50px;
+            left: 59px;
+            bottom: inherit;
+            margin: auto;
+            background-color: black;
+            opacity: 0.6;
+            color: white;
+            animation: none;
+            padding: 15px;
+        }
+        .trainingintro {
+            position: absolute;
+            top: 50px;
+            left: 59px;
+            bottom: inherit;
+            margin: auto;
+            background-color: black;
+            opacity: 0.6;
+            color: white;
+            animation: none;
+            padding: 15px;
+        }
+        .carousel {
+            border-top-style: inset;
+            padding: 5px;
+            margin-top: 55px;
+        }
+        .w3-image {
+            height: 283px;
+            width: 650px;
+        }
+        .introh1 {
+            font-size: 15px;
+        }
+        .introh3 {
+            font-size: 10px;
+        }
+        .btn_showdetails {
+            font-size: 12px;
+        }
+        .inviteworkshop {
+            padding-left: 19px;
+        }
+        .content-holder div.column {
+            float: left;
+            width: 100%;
+            padding: 10px;
+            height: auto;
+            border-bottom-style: outset;
+        }
+        .grid-container-top {
+            width: 100%;
+            display: grid;
+            grid-template-columns: 100%;
+            padding-left: 10px;
+        }
+        .grid-item-top {
+            font-size: 20px;
+            padding-right: 10px;
+        }
+        .grid-item-middle {
+            font-size: 20px;
+            padding-right: 10px;
+        }
+        .grid-container-bottom {
+            width: 100%;
+            display: grid;
+            grid-template-columns: 100%;
+            margin-right: 25px;
+        }
+        .grid-container-bottom2 {
+            width: auto;
+            display: grid;
+            grid-template-columns: 100%;
+        }
+        .grid-container-middle {
+            width: auto;
+            display: grid;
+            grid-template-columns: 100%;
+            padding-left: 10px;
+        }
+        .grid-container-low {
+            width: auto;
+            display: grid;
+            grid-template-columns: 100%;
+            margin-right: 25px;
+            padding: 0px;
+        }
+        .certificate-image {
+            width: 300px;
+            height: 200px;
+            padding-left: 35px;
+        }
+        .tab .tablinks {
+            padding: 15px 5px 15px 10px;
+        }
+        .video-embed {
+            width: 100%;
+            height: 200px;
+            padding-left: 35px;
+        }
+        .maincontentcehpage {
+            padding-left: 10px;
+            padding-right: 7px;
+        }
+        .maincontentchfipage {
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+        .maincontentecsapage {
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+        .maincontentcasenetpage {
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+        .maincontentcasejavapage {
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+        .maincontentcehmasterpage {
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+        .maincontentecsapracticalpage {
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+        .aboutusimage img {
+            display: none;
+        }
+        .maincontentaboutus {
+            padding-left: 15px;
+            padding-right: 10px;
+        }
+        .welcometo {
+            font-size: 30px;
+            font-family: Charcoal, sans-serif;
+            font-weight: 500;
+        }
+        div.mahentechlogo img {
+            display: block;
+            width: 150px;
+        }
+        div.main_contactus {
+            width: 90%;
+        }
+        div.maincontentsecuritytips {
+            padding-left: 15px;
+            padding-right: 10px;
+        }
+    }
+    
+    @media (max-width: 260px) {
+        .container div.logo_navbar_left img {
+            height: 50px;
+            width: 130px;
+            display: block;
+            bottom: 440px;
+            padding-bottom: 10px;
+        }
+    }

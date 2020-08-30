@@ -1,0 +1,99 @@
+.maincontentcehmasterpage {
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+
+/* Rounded border */
+
+.grid-container-top {
+    display: grid;
+    grid-template-columns: 70% auto;
+}
+
+hr.rounded {
+    border-top: 1px solid #fff;
+    border-radius: 5px;
+    width: 100%;
+    margin: auto;
+}
+
+.grid-item-top {
+    background-color: inherit;
+    padding: 5px;
+    font-size: 25px;
+    text-align: left;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-style: normal;
+}
+
+.grid-container-middle {
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+.grid-item-middle {
+    background-color: inherit;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.grid-container-middle2 {
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+.grid-item-middle2 {
+    background-color: inherit;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.grid-container-low {
+    display: grid;
+    grid-template-columns: 65% auto;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.grid-item-low {
+    background-color: inherit;
+    font-size: 20px;
+    padding-bottom: 25px;
+}
+
+.certificate-image {
+    width: auto;
+    height: auto;
+}
+
+.coursedetails {
+    margin-left: 0;
+    font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #f1f1f1;
+    height: 20px;
+    overflow: auto;
+}
+
+.sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.sidebar a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}

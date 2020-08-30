@@ -1,0 +1,213 @@
+body {
+    background-image: linear-gradient(rgb(240, 240, 240), rgb(248, 248, 245));
+}
+
+.container {
+    height: 73px;
+    width: auto;
+    display: block;
+}
+
+.nav>li>a:focus,
+.nav>li>a:hover {
+    text-decoration: none;
+    background-color: inherit;
+    transition-duration: 0.3s;
+    transform: scale(1.3);
+    text-shadow: 1px 1px white;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0;
+}
+
+.logo_navbar_left img {
+    width: 20%;
+    height: auto;
+    display: block;
+    margin: 0;
+    margin-bottom: -40px;
+}
+
+.con {
+    background-color: rgb(2, 2, 2);
+    width: 100%;
+}
+
+.nav li a,
+.dropdown .dropbtn {
+    font-size: 2rem;
+    font-family: "Maison Neue Bold", sans-serif;
+    text-align: center;
+    color: white;
+    background-color: inherit;
+    border: none;
+    outline: none;
+    padding: 10px 10px 10px 10px;
+    object-fit: cover;
+}
+
+li.menu-item-0,
+li.active,
+li.menu-item-1,
+li.menu-item-2,
+li.menu-item-3,
+li.menu-item-4,
+li.menu-item-7,
+li.menu-item-8 {
+    content: '/';
+    font-family: 'Avenir Next Regular';
+    font-size: 1.8rem;
+    font-weight: normal;
+    padding: 0px 20px 0px 20px;
+    display: block;
+    cursor: pointer;
+}
+
+li.menu-item-5-mobile {
+    display: none;
+}
+
+li.menu-item-6-mobile {
+    display: none;
+}
+
+div.dropdown-content {
+    visibility: hidden;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px rgba(179, 167, 167);
+    background-color: rgba(0, 0, 0);
+    left: -925%;
+    right: -95%;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.dropdown:hover .dropdown-content {
+    visibility: visible;
+    opacity: 0.99;
+    z-index: 1;
+}
+
+.grid-container {
+    color: white;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.dropdown:hover .sas {
+    visibility: visible;
+    opacity: 0.99;
+    z-index: 1;
+}
+
+div.sas {
+    left: -555%;
+    right: -20%;
+    width: max-content;
+    visibility: hidden;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px rgba(179, 167, 167);
+    background-color: rgba(0, 0, 0);
+    opacity: 0;
+    padding: 10px;
+    transition: opacity 1s;
+}
+
+.grid-container-services {
+    color: white;
+    display: grid;
+    width: max-content;
+    grid-gap: 10px;
+    grid-template-columns: 50% 50%;
+    padding: 10px;
+}
+
+.grid-item-services {
+    padding: 15px;
+    width: max-content;
+    float: left;
+}
+
+.courses {
+    padding: 10px 20px 0px 20px;
+    border-left: 1px solid rgb(37, 29, 29);
+    font-size: 10px;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.ceh,
+.chfi,
+.ecsa,
+.casenet,
+.casejava,
+.cehmaster,
+.ecsap {
+    transition: transform .9s;
+    font-size: 25px;
+    cursor: pointer;
+    padding-bottom: 15px;
+}
+
+.ceh:hover,
+.chfi:hover,
+.ecsa:hover,
+.casenet:hover,
+.casejava:hover,
+.cehmaster:hover,
+.ecsap:hover {
+    transform: translateX(35px);
+}
+
+.cehimg,
+.chfiimg,
+.ecsaimg,
+.casenetimg,
+.casejavaimg,
+.cehmasterimg,
+.ecsapimg {
+    height: 600px;
+    width: 600px;
+    display: none;
+}
+
+.basicimg {
+    height: 600px;
+    width: 600px;
+    display: block;
+}
+
+.courses a.trainingcourse {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+.menu-toggle {
+    color: #fff;
+    float: right;
+    line-height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+}
+
+.top_background {
+    display: block;
+    height: 300px;
+    width: 100%;
+}
